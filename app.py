@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 import subprocess
+import subprocess
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_community.vectorstores import FAISS
